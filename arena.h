@@ -3,7 +3,7 @@
 
 // !!!ARENE NISU LINKOVANE MORAS IH POVEZAT DA SE AUTOMACKI RESIZE
 // BACKBUFFER JE SAMO MALLOC MMAP ILI STACK LIST
-#define DEFAULT_ALLIGMENT (2*sizeof(void*))// macro za c ABI size 64 bita ako je na neki drugi procesor
+#define DEFAULT_ALLIGMENT (2*sizeof(void*))
 
 #include "stdint.h"
 #include "stdint.h"
